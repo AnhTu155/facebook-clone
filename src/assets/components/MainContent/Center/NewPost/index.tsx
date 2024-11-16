@@ -43,18 +43,18 @@ const NewsPost = ({ jobs, showImage }) => {
               </p>
             </div>
           </div>
-          <div className="flex m-2 p-2 border-t border-b border-gray-300 max-w-full justify-around ">
-            <button className="inline-block text-base text-gray-500 bg-white border-0 gap-3 rounded-lg cursor-pointer flex items-center hover:bg-[#e0e0e0] px-4">
-              <LikeIcon className="pr-2.5  " /> Thích
+          <div className="flex  grid-cols-3   p-2 border-t border-b border-gray-300 max-w-full justify-around  ">
+            <button className="inline-block text-base text-gray-500 bg-white border-0 gap-3 px-5 rounded-lg cursor-pointer flex items-center hover:bg-[#e0e0e0] ">
+              <LikeIcon className="  " /> Thích
             </button>
             <button
               onClick={handleComment}
-              className="inline-block text-base text-gray-500 bg-white border-0 gap-3 rounded-lg cursor-pointer flex items-center hover:bg-[#e0e0e0]  px-4"
+              className="inline-block text-base text-gray-500 bg-white border-0 gap-3 px-5 rounded-lg cursor-pointer flex items-center hover:bg-[#e0e0e0]  "
             >
-              <CommentIcon className="pr-2.5" /> Bình luận
+              <CommentIcon className="" /> Bình luận
             </button>
-            <button className="inline-block text-base text-gray-500 bg-white border-0 gap-3 rounded-lg cursor-pointer flex items-center hover:bg-[#e0e0e0] px-4">
-              <ShareIcon className="pr-2.5" /> Chia sẻ
+            <button className="inline-block text-base text-gray-500 bg-white border-0 gap-3 px-5 rounded-lg cursor-pointer flex items-center hover:bg-[#e0e0e0] ">
+              <ShareIcon className="" /> Chia sẻ
             </button>
           </div>
           {comment && (

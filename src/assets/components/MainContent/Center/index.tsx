@@ -11,7 +11,7 @@ const MainContentCenter: React.FC = () => {
   const [showImage, setShowImage] = useState("");
   const [jobs, setJobs] = useState([]);
   return (
-    <div className="w-full h-full flex-1 items-center justify-center h-screen bg-gray-100 px-8 py-4 rounded-[15px] text-[15px]  ml-1/4 w-2/4 h-screen  ">
+    <div className="w-full h-full flex-1 items-center justify-center h-screen bg-gray-100 px-8 py-4 rounded-[15px] text-[15px]  ml-1/4 h-screen  ">
       <div className="w-full  bg-gray-100 flex items-center justify-center">
         <CreatePost setIsPostVisible={setIsPostVisible} />
       </div>

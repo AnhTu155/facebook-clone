@@ -3,8 +3,8 @@ import ImagePhoto from "@/assets/components/ImagePhoto";
 
 const FriendRight: React.FC = () => {
   return (
-    <div className="w-full flex flex-col px-5 bg-gray-100 max-h-screen">
-      <div className="flex justify-between items-center px-4 pt-8 mt-[50px]">
+    <div className="w-full flex flex-col px-5 bg-gray-100">
+      <div className="flex justify-between items-center px-4 pt-8 ">
         <h2 className="text-lg font-bold text-[20px]">Lời mời kết bạn</h2>
 
         <a

@@ -59,7 +59,7 @@ function SidebarLeft() {
         </h4>
       </div>
 
-      <div className="flex flex-row items-center hover:bg-gray-300  ml-2 rounded-lg space-x-2 px-2 rounded-lg ">
+      <div className="flex flex-row items-center hover:bg-gray-300  ml-2 pb-[60px] rounded-lg space-x-2 px-2 rounded-lg ">
         <img
           src="https://maxst.icons8.com/vue-static/icon/svg/recolor-wheel.svg"
           alt="Color wheel"
