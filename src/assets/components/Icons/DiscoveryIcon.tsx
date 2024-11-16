@@ -1,0 +1,14 @@
+import React from "react";
+
+const DiscoveryIcon: React.FC = () => (
+  <svg
+    className=" bg-[length:auto] bg-[position:0_-490px] w-[30px] h-[30px] text-gray-500  rounded-full inline-flex items-center justify-center"
+    viewBox="0 0 24 24"
+    aria-hidden="true"
+    data-testid="SupervisorAccountIcon"
+  >
+    <path d="M22 16v-2l-8.5-5V3.5c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5V9L2 14v2l8.5-2.5V19L8 20.5V22l4-1 4 1v-1.5L13.5 19v-5.5z"></path>
+  </svg>
+);
+
+export default DiscoveryIcon;
