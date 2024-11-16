@@ -1,15 +1,15 @@
 import react, { useState } from "react";
 import Mores from "./More";
-import MenuItem from "../../MenuItem";
+
 import AvatarIcon from "../../Icons/AvatarIcon";
 import FriendIcon from "../../Icons/FriendIcon";
-import PersonAddIcon from "../../Icons/PersonAddIcon";
 import MessageIcon from "../../Icons/MessageIcon";
 import MarketplaceIcon from "../../Icons/Marketplace";
 import EventIcon from "../../Icons/EventIcon";
 import { HistoryIcon } from "lucide-react";
 import ArrowBotIcon from "../../Icons/ArrowBotIcon";
 import OrderIcon from "../../Icons/OrderIcon";
+import MenuItem from "@/assets/components/ui/MenuItem";
 
 function SidebarLeft() {
   const [showMores, setShowMores] = useState(false);

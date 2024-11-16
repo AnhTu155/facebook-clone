@@ -5,7 +5,7 @@ import StoryReel from "./StoryReel";
 import Post from "./Post";
 import NewsPost from "./NewPost";
 
-const MainContentCenter: React.FC = () => {
+const SidebarCenter: React.FC = () => {
   const [newPost, setNewPost] = useState(false);
   const [isPostVisible, setIsPostVisible] = useState(false);
   const [showImage, setShowImage] = useState("");
@@ -40,4 +40,4 @@ const MainContentCenter: React.FC = () => {
   );
 };
 
-export default MainContentCenter;
+export default SidebarCenter;

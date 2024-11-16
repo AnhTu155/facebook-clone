@@ -2,10 +2,11 @@ import ActiveIcon from "@/assets/components/Icons/Activeicon";
 import BirthdayIcon from "@/assets/components/Icons/BirthdayIcon";
 import GameIcon from "@/assets/components/Icons/GameIcon";
 import MessageIcon from "@/assets/components/Icons/MessageIcon";
-import MoreOneIcon from "@/assets/components/Icons/MoreoneIcon";
+import MoreOneIcon from "@/assets/components/Icons/MoreOneIcon";
+
 import OrderIcon from "@/assets/components/Icons/OrderIcon";
 import ReelIcon from "@/assets/components/Icons/ReelIcon";
-import MenuItem from "@/assets/components/MenuItem";
+import MenuItem from "@/assets/components/ui/MenuItem";
 import React, { useState } from "react";
 
 const Mores = () => {

@@ -4,7 +4,7 @@ import FriendIcon from "@/assets/components/Icons/FriendIcon";
 import PersonAddIcon from "@/assets/components/Icons/PersonAddIcon";
 import PersonInviteIcon from "@/assets/components/Icons/PersonInviteIcon";
 import SettingIcon from "@/assets/components/Icons/SettingIcon";
-import MenuItem from "@/assets/components/MenuItem";
+import MenuItem from "@/assets/components/ui/MenuItem";
 
 const FriendLeft: React.FC = () => {
   return (

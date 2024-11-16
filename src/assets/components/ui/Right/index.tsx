@@ -1,8 +1,7 @@
 import React from "react";
 import { Gift, Search, Plus } from "lucide-react";
-import UserItem from "../../ListFriend";
-import GroupItem from "../../GroupItem";
-import { Avatar } from "antd";
+import UserItem from "../ListFriend";
+import GroupItem from "../GroupItem";
 
 const getRandomAvatar = () => {
   const avatars = [
@@ -18,7 +17,7 @@ const getRandomAvatar = () => {
   return avatars[Math.floor(Math.random() * avatars.length)];
 };
 
-const MainContentRight: React.FC = () => {
+const SidebarRight: React.FC = () => {
   const LIST = [
     { name: "Phạm Ngọc Thắm", avatar: getRandomAvatar() },
     { name: "Bùi Anh Tú", avatar: getRandomAvatar() },
@@ -124,4 +123,4 @@ const MainContentRight: React.FC = () => {
   );
 };
 
-export default MainContentRight;
+export default SidebarRight;

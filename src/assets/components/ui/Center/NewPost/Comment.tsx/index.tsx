@@ -24,7 +24,6 @@ function Comment({ showButton, setShowButton }) {
             <input
               type="text"
               className="w-full h-full flex-wrap rounded-lg bg-[#e9ebf0] border-none whitespace-pre-wrap mr-2.5 p-4"
-              type="text"
               id=""
               name=""
               value={chat}

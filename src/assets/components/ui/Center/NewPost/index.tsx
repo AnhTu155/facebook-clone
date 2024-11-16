@@ -2,7 +2,7 @@ import CommentIcon from "@/assets/components/Icons/CommentIcon";
 import LikeIcon from "@/assets/components/Icons/LikeIcon";
 import ShareIcon from "@/assets/components/Icons/ShareIcon";
 import React, { useState } from "react";
-import Comment from "./Comment.tsx";
+import Comment from "./Comment.tsx/index.tsx";
 
 const NewsPost = ({ jobs, showImage }) => {
   const [comment, SetComment] = useState(false);
