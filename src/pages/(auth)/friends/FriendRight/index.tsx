@@ -1,5 +1,5 @@
-import FriendItem from "@/assets/components/ui/FriendItem/index ";
-import ImagePhoto from "@/assets/components/ui/ImagePhoto/ImagePhotoComponent";
+import FriendItem from "@/components/ui/FriendItem/index ";
+import ImagePhoto from "@/components/ui/ImagePhoto/ImagePhotoComponent";
 
 const FriendRight: React.FC = () => {
   return (

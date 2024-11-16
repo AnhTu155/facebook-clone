@@ -1,7 +1,7 @@
-import Header from "@/assets/components/Header";
-import SidebarCenter from "@/assets/components/ui/Center";
-import SidebarLeft from "@/assets/components/ui/Left";
-import SidebarRight from "@/assets/components/ui/Right/index";
+import Header from "@/components/Header";
+import SidebarCenter from "@/components/ui/Center";
+import SidebarLeft from "@/components/ui/Left";
+import SidebarRight from "@/components/ui/Right/index";
 
 export default function Home() {
   return (

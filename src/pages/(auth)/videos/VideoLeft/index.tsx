@@ -1,8 +1,8 @@
-import AllPersonIcon from "@/assets/components/Icons/AllPersonIcon";
-import DiscoveryIcon from "@/assets/components/Icons/DiscoveryIcon";
-import ReelIcon from "@/assets/components/Icons/ReelIcon";
-import SettingIcon from "@/assets/components/Icons/SettingIcon";
-import MenuItem from "@/assets/components/ui/MenuItem";
+import AllPersonIcon from "@/components/Icons/AllPersonIcon";
+import DiscoveryIcon from "@/components/Icons/DiscoveryIcon";
+import ReelIcon from "@/components/Icons/ReelIcon";
+import SettingIcon from "@/components/Icons/SettingIcon";
+import MenuItem from "@/components/ui/MenuItem";
 
 import { VideoIcon } from "lucide-react";
 

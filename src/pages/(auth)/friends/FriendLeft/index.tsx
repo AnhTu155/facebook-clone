@@ -1,10 +1,10 @@
-import AllPersonIcon from "@/assets/components/Icons/AllPersonIcon";
-import BirthdayIcon from "@/assets/components/Icons/BirthdayIcon";
-import FriendIcon from "@/assets/components/Icons/FriendIcon";
-import PersonAddIcon from "@/assets/components/Icons/PersonAddIcon";
-import PersonInviteIcon from "@/assets/components/Icons/PersonInviteIcon";
-import SettingIcon from "@/assets/components/Icons/SettingIcon";
-import MenuItem from "@/assets/components/ui/MenuItem";
+import AllPersonIcon from "@/components/Icons/AllPersonIcon";
+import BirthdayIcon from "@/components/Icons/BirthdayIcon";
+import FriendIcon from "@/components/Icons/FriendIcon";
+import PersonAddIcon from "@/components/Icons/PersonAddIcon";
+import PersonInviteIcon from "@/components/Icons/PersonInviteIcon";
+import SettingIcon from "@/components/Icons/SettingIcon";
+import MenuItem from "@/components/ui/MenuItem";
 
 const FriendLeft: React.FC = () => {
   return (
