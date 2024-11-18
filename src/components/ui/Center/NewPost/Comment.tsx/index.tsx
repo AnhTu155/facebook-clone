@@ -1,4 +1,5 @@
 import ClickIcon from "@/components/Icons/ClickIcon";
+import CommentImage from "@/components/ui/Image/CommentImage";
 import { useState } from "react";
 
 function Comment({ showButton, setShowButton }) {
@@ -15,11 +16,7 @@ function Comment({ showButton, setShowButton }) {
     <div className=" p-2.5 rounded-[15px] bg-white mb-1.5">
       {showButton && (
         <form className="flex w-full h-full justify-center mb-3" action="">
-          <img
-            src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-1/464836687_122165560256096850_8306177198689279171_n.jpg?stp=cp0_dst-jpg_s32x32&_nc_cat=106&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=2zg-QRZ1tskQ7kNvgGV9r6V&_nc_zt=24&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=AdEcECcYVlmGkQ0H9Mw3n7i&oh=00_AYCLbyVLQUlAfdKkP9cMFdwOUwcMpwzKKSnQ86eeUa4sDg&oe=673BAD0A"
-            className="h-8 w-8 object-cover cursor-pointer  rounded-full mr-2.5"
-            alt="Profile Image"
-          />
+          <CommentImage />
           <div className="flex w-full bg-[#e9ebf0] rounded-lg">
             <input
               type="text"
@@ -43,11 +40,7 @@ function Comment({ showButton, setShowButton }) {
       <div className="w-full">
         {chats.map((chat, index) => (
           <div className="flex w-full h-auto" key={index}>
-            <img
-              src="https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-1/464836687_122165560256096850_8306177198689279171_n.jpg?stp=cp0_dst-jpg_s32x32&_nc_cat=106&ccb=1-7&_nc_sid=f4b9fd&_nc_ohc=2zg-QRZ1tskQ7kNvgGV9r6V&_nc_zt=24&_nc_ht=scontent.fsgn2-9.fna&_nc_gid=AdEcECcYVlmGkQ0H9Mw3n7i&oh=00_AYCLbyVLQUlAfdKkP9cMFdwOUwcMpwzKKSnQ86eeUa4sDg&oe=673BAD0A"
-              className="h-8 w-8 object-cover cursor-pointer  rounded-full mr-2.5"
-              alt="Profile Image"
-            />
+            <CommentImage />
             <textarea
               className="w-full h-full p-2 px-3 flex bg-[#e9ebf0] rounded-[15px] border-none mb-4"
               type="text"

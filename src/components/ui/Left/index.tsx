@@ -10,6 +10,8 @@ import { HistoryIcon } from "lucide-react";
 import ArrowBotIcon from "@/components/Icons/ArrowBotIcon";
 import OrderIcon from "@/components/Icons/OrderIcon";
 import MenuItem from "@/components/ui/MenuItem";
+import ReactjsImage from "../Image/ReactjsImage";
+import BallPoolImage from "../Image/BallPoolImage";
 
 function SidebarLeft() {
   const [showMores, setShowMores] = useState(false);
@@ -34,7 +36,7 @@ function SidebarLeft() {
       <div className="w-full top-2 right-2 cursor-pointer float-left p-1 pb-4">
         <button
           onClick={handleToggleSidebar}
-          className="flex items-center gap-1 text-gray-800 hover:text-gray-600 pl-3"
+          className="flex items-center gap-1 text-gray-800 hover:text-gray-600 pl-3 "
         >
           <ArrowBotIcon />
           More
@@ -48,24 +50,14 @@ function SidebarLeft() {
       </div>
 
       <div className="flex flex-row items-center hover:bg-gray-300  ml-2 rounded-lg space-x-2 px-2 rounded-lg ">
-        <img
-          src="https://maxst.icons8.com/vue-static/icon/landing/animated-formats/lottie.svg"
-          alt="lottie icon"
-          className="w-[28px] h-[28px] text-gray-700 fill-current"
-          loading="lazy"
-        />
+        <ReactjsImage />
         <h4 className=" font-medium text-black text-[15px] font-sans my-3 mx-2">
           Reactjs Việt Nam
         </h4>
       </div>
 
       <div className="flex flex-row items-center hover:bg-gray-300  ml-2 pb-[60px] rounded-lg space-x-2 px-2 rounded-lg ">
-        <img
-          src="https://maxst.icons8.com/vue-static/icon/svg/recolor-wheel.svg"
-          alt="Color wheel"
-          className="w-[28px] h-[28px] text-gray-700 fill-current"
-          loading="lazy"
-        />
+        <BallPoolImage />
         <h4 className=" font-medium text-black text-[15px] font-sans my-3 mx-2">
           8 Ball Pool
         </h4>

@@ -1,6 +1,6 @@
 import React from "react";
 
-const InsearchIcon: React.FC = () => (
+const ImageVideo: React.FC = () => (
   <img
     className="h-6 w-6 mr-2"
     referrerPolicy="origin-when-cross-origin"
@@ -8,4 +8,4 @@ const InsearchIcon: React.FC = () => (
   />
 );
 
-export default InsearchIcon;
+export default ImageVideo;

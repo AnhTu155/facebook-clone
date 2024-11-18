@@ -2,7 +2,7 @@ import React from "react";
 
 const ArrowBotIcon: React.FC = () => (
   <svg
-    className="w-[28px] h-[28px] text-gray-800 bg-gray-400 rounded-full"
+    className="w-[28px] h-[28px] text-gray-800 "
     aria-hidden="true"
     viewBox="0 0 24 24"
   >
