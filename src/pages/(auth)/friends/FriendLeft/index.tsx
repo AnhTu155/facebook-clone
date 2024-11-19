@@ -4,9 +4,20 @@ import FriendIcon from "@/components/Icons/FriendIcon";
 import PersonAddIcon from "@/components/Icons/PersonAddIcon";
 import PersonInviteIcon from "@/components/Icons/PersonInviteIcon";
 import SettingIcon from "@/components/Icons/SettingIcon";
-import MenuItem from "@/components/ui/MenuItem";
+import MenuItem from "@/assets/components/ui/MenuItem";
 
 const FriendLeft: React.FC = () => {
+  const friendLeft = [
+    { icon: <AvatarIcon />, text: "Trang chủ" },
+    { icon: <FriendIcon />, text: "Bạn bè" },
+    { icon: <HistoryIcon />, text: "Kỷ niệm" },
+    { icon: <OrderIcon />, text: "Đã lưu" },
+    { icon: <FriendIcon />, text: "Nhóm" },
+    { icon: <MessageIcon />, text: "Messenger" },
+    { icon: <MarketplaceIcon />, text: "Marketplace" },
+    { icon: <EventIcon />, text: "Event" },
+  ];
+
   return (
     <>
       <div className="flex justify-between items-center px-4 py-2 hover:bg-gray-200 cursor-pointer mt-2">
